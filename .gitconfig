@@ -181,3 +181,32 @@
 [init]
 
 	defaultBranch = main
+
+
+[user]
+
+    name = Craig Davis
+    email = craig-davis@users.noreply.github.com
+    signingkey = XXXX
+
+[pager]
+
+    diff = diff-so-fancy | less --tabs=4 -RFX --pattern '^(Date|added|deleted|modified):'
+    show = diff-so-fancy | less --tabs=4 -RFX
+
+[commit]
+
+    gpgsign = true
+
+[gpg]
+
+    program = gpg
+
+[tag]
+    gpgsign = true
+
+[filter "lfs"]
+    clean = git-lfs clean -- %f
+    smudge = git-lfs smudge -- %f
+    process = git-lfs filter-process
+    required = true

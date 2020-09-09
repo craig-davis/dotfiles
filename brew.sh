@@ -97,5 +97,14 @@ brew install tree
 brew install vbindiff
 brew install zopfli
 
+# Craig Davis
+brew install figlet
+brew install htop
+brew install speedtest-cli
+brew install pngcrush
+brew install diff-so-fancy
+brew install ffmpeg
+brew install Z
+
 # Remove outdated versions from the cellar.
 brew cleanup

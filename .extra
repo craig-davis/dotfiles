@@ -2,7 +2,7 @@
 ~/.grc.bashrc
 
 # Turn on quick file navigation
-. ~/Projects/Personal/env/z/z.sh
+. $(brew --prefix)/etc/profile.d/z.sh
 
 # Ensure that brew bin is located
 #export PATH="/usr/local/sbin:$PATH"

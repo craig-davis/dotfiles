@@ -1,0 +1,20 @@
+# Color all the things
+~/.grc.bashrc
+
+# Turn on quick file navigation
+. ~/Projects/Personal/env/z/z.sh
+
+# Ensure that brew bin is located
+#export PATH="/usr/local/sbin:$PATH"
+
+# Enable improved bash completion
+. /usr/local/etc/bash_completion.d/git-completion.bash
+
+# Standup Tyme2
+export PATH="/Users/craig/Projects/Personal/tyme2-standup/bin:$PATH"
+
+# Fix github rate limiting
+export HOMEBREW_GITHUB_API_TOKEN="XXX"
+
+# Overcommit Ignore last warnings
+alias ignore="OVERCOMMIT_DISABLE=1 fc -s"

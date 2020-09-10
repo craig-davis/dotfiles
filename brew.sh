@@ -68,6 +68,7 @@ brew cask install sublime-text
 brew cask install zoomus
 brew cask install webstorm
 brew cask install slack
+brew cask install dropbox
 
 # Remove outdated versions from the cellar.
 brew cleanup

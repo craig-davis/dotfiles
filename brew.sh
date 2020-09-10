@@ -64,11 +64,19 @@ brew install pngcrush
 brew install diff-so-fancy
 brew install ffmpeg
 brew install Z
+
+# Web Development Dependencies
+brew install node
+brew install yarn
+brew tap mongodb/brew
+brew install mongodb-community@3.6
+
 brew cask install sublime-text
 brew cask install zoomus
 brew cask install webstorm
 brew cask install slack
 brew cask install dropbox
+brew cask install 1password
 
 # Remove outdated versions from the cellar.
 brew cleanup

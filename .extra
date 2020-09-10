@@ -1,11 +1,11 @@
 # Color all the things
-~/.grc.bashrc
+. ~/.grc.bashrc
 
 # Turn on quick file navigation
 . $(brew --prefix)/etc/profile.d/z.sh
 
 # Ensure that brew bin is located
-#export PATH="/usr/local/sbin:$PATH"
+export PATH="/usr/local/sbin:$PATH"
 
 # Enable improved bash completion
 . /usr/local/etc/bash_completion.d/git-completion.bash

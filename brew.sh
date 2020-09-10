@@ -56,16 +56,18 @@ brew install ssh-copy-id
 brew install tree
 
 # Craig Davis
-brew cask install sublime-text
 brew install figlet
+brew install grc
 brew install htop
 brew install speedtest-cli
 brew install pngcrush
 brew install diff-so-fancy
 brew install ffmpeg
 brew install Z
+brew cask install sublime-text
 brew cask install zoomus
 brew cask install webstorm
+brew cask install slack
 
 # Remove outdated versions from the cellar.
 brew cleanup
